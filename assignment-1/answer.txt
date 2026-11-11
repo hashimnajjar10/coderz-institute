@@ -1,0 +1,2 @@
+Browser Tab title element: <title>
+Main page heading element: <h1>
