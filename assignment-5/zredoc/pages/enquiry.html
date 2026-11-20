@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enquiry</title>
+</head>
+<body>
+
+    <h1>Course Enquiry</h1>
+
+    <form>
+
+        <label for="full-name">Full Name:</label>
+        <input
+            type="text"
+            id="full-name"
+            name="fullName"
+            placeholder="Enter your full name"
+            autocomplete="name"
+        >
+
+        <label for="email">Email Address:</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+        >
+
+        <label for="phone">Phone Number:</label>
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+        >
+
+        <label for="course">Choose a Course:</label>
+        <select id="course" name="course">
+            <option value="">Choose a course</option>
+            <option value="content">HTML Content</option>
+            <option value="forms">HTML Forms</option>
+        </select>
+
+        <label for="seats">Number of Seats:</label>
+        <input
+            type="number"
+            id="seats"
+            name="seats"
+            value="1"
+            min="1"
+        >
+
+        <label for="preferred-date">Preferred Date:</label>
+        <input
+            type="date"
+            id="preferred-date"
+            name="preferredDate"
+        >
+
+        <label for="message">Enquiry Message:</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Write your enquiry here..."
+        ></textarea>
+
+        <button type="submit">Submit Enquiry</button>
+
+    </form>
+
+</body>
+</html>
