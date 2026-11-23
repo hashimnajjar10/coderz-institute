@@ -1,0 +1,22 @@
+:root {
+    --brand: #2563eb;
+}
+
+h1, h2 {
+    color: var(--brand);
+}
+
+.course-card {
+    background-color: #f5f5f5;
+}
+
+.course-card[data-status="open"] .status {
+    background-color: lightgreen;
+}
+
+.course-card[data-status="full"] .status {
+    background-color: lightgray;
+}
+body {
+    background-color: lightblue;
+}
