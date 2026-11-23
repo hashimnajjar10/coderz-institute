@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F1F5F9;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #0F172A;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.description {
+    color: #64748B;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.meeting-card {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-right-width: 5px;
+    border-radius: 10px;
+
+    padding: 25px;
+    margin-bottom: 20px;
+
+    text-align: right;
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.meeting-card h2 {
+    color: #0F172A;
+    font-size: 22px;
+    margin: 18px 0 12px;
+}
+
+.meeting-description {
+    color: #64748B;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.meeting-time {
+    color: #64748B;
+    font-size: 14px;
+    margin: 18px 0;
+}
+
+.meeting-button {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* First Meeting Colors */
+
+.first-card {
+    border-right-color: #0369A1;
+}
+
+.first-card .badge {
+    background-color: #E0F2FE;
+    color: #0369A1;
+}
+
+.first-card .meeting-button {
+    background-color: #0369A1;
+}
+
+/* Second Meeting Colors */
+
+.second-card {
+    border-right-color: #15803D;
+}
+
+.second-card .badge {
+    background-color: #DCFCE7;
+    color: #15803D;
+}
+
+.second-card .meeting-button {
+    background-color: #15803D;
+}
