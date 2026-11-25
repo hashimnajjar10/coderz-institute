@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F3EE;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.trainer-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E1D8;
+    border-radius: 20px;
+    padding: 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    max-width: 850px;
+    margin: 60px auto;
+}
+
+.trainer-card img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.trainer-info {
+    flex: 1;
+    min-width: 220px;
+}
+
+.trainer-info h1 {
+    color: #29483F;
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+.trainer-info h2 {
+    color: #8BAA98;
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.trainer-info p {
+    color: #64736B;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.skills span {
+    background-color: #E6EEE8;
+    color: #29483F;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buttons button:first-child {
+    background-color: #29483F;
+    color: #FFFFFF;
+    border: 2px solid #29483F;
+}
+
+.buttons button:last-child {
+    background-color: #FFFFFF;
+    color: #29483F;
+    border: 2px solid #29483F;
+}
